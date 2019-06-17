@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+.header-top{
+    background-color: #333333;
+    padding: 30px 20px;
+}
+.header-top a{
+    color: white;
+}
+body{
+    margin: 0;
+    background: #cccccc;
+}
+.container{
+    width: 960px;
+    margin: 0px 190px ;
+}
+.menu{
+    background: #666666;
+    margin: 0;
+     padding: 0;
+     list-style: nont;
+}
+.menu form label{
+    display: inline;
+}
+.menu form input{
+    width: auto;
+    color: red;
+}
+.search{
+    background: #333333;
+}
+.menu form{
+    float: right;
+    padding-right: 15px;
+    padding-top: 7px
+}
+.menu:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+menu li:hover{
+    background: #bbbbbb;
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+main{
+    background: #e5e5e5;
+}
+.content{
+    background-color: #ffffff;
+    padding: 20px 0px;
+}
+.new{
+    float: left;
+    height: 800px;
+}
+.new-item{
+   border-bottom: 1px solid #bbbbbb;
+    }
+.new-item::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.new-img{
+    float: left;
+    width: 160px;
+    margin: 40px 20px;
+}
+.new-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.new-content{
+    float: left;
+    width: 360px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+.new-content h3{
+    color: #333333;
+    font-size: 20 px;
+    text-decoration: none;
+}
+.new-content h5{
+    margin-top: 0%;
+}
+.old-price{
+    border: 1px solid #333333;
+    text-decoration: line-through;
+}
+.new-price{
+    border: 1px solid #333333;
+}
+.click{
+    color: orangered;
+    text-decoration: none;
+}
+aside{
+    background: #ffffff;
+}
+.main-aside{
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+}
+aside section{
+    margin-bottom: 40px;
+}
+.catalogry{
+    list-style: none; 
+    margin: 0; padding: 0;
+}
+.catalogry li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.catalogry li:hover{
+    background: #666666
+}
+.catalogry li a{
+    color: violet;
+    text-decoration: none;
+}
+footer{
+    background: #333333;
+    clear: both;
+    width: 930px;
+    margin: 0px 205px;
+}
+.copy{
+    font-size: 12;
+    color: #cccccc;
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding: 18px 0;
+    font-weight: bold;
+}
+.copy span{
+    color: orangered;
+}
+.form-control{
+    width: 100%
+}
+form label{
+    display: block;
+}
